@@ -175,11 +175,13 @@
 
       <section id="testimonios">
         <h2>Testimonios</h2>
-        <input
-          type="text"
-          id="buscador-testimonios"
-          placeholder="Buscar testimonio por palabra clave o nombre"
-        />
+        <label class="form-control form-adorn">
+          <div class="form-adorn-icon" aria-hidden="true">
+            <svg class="bi" width="16" height="16"><use href="#search" /></svg>
+          </div>
+          <input type="search" class="form-ghost" placeholder="Buscar..." />
+        </label>
+        <br />
 
         <div class="row">
           <div class="sm:col-6 mb-3 sm:mb-0">
